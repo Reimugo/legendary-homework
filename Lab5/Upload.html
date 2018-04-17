@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Lab 05</title>
+   <link rel="stylesheet" href="./css/reset.css" />
+   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+   <div class="container">
+   <ul class="nav nav-pills nav-fill row mx-auto">
+         <li class="nav-item col-xl-4 col-12">
+               <div><h1>Share Your Travels</h1>
+               <em>Let us know where you've been</em></div>
+         </li>
+         <li class="nav-item  col-xl-2 col-12"><a class="nav-link text-muted" href="Gallery.html">Gallery</a></li>
+         <li class="nav-item col-xl-2 col-12"><a class="nav-link text-muted" href="#Rel">Feeling Lucky</a></li>
+         <li class="nav-item  col-xl-2 col-12"><a class="nav-link text-muted" href="#Rev">Usesr</a></li>
+      </ul>
+
+
+
+<main>
+   <div class="card container">
+   	<form action="http://www.randyconnolly.com/tests/process.php" method="post" role="form">
+   	<fieldset>
+   		<legend>PHOTO DETAILS</legend>
+   		
+   			
+   				
+   					<div class="form-group">Title
+   					<input type="text" name="title" class="form-control" value="Give your photo a descriptive name"/></div>
+   					<div class="form-group">Description
+   					<textarea name="description" class="form-control" placeholder="Adding a rich description will help with search result"></textarea></div>
+   				
+   			
+
+   			
+   				
+   					<div class="form-group">Continent<br/>
+   					<select class="form-control" >
+   						<option value="continent">Choose continent</option>
+   					</select></div>
+
+   					<div class="form-group">Country<br/>
+   					<select class="form-control">
+   						<option value="country">Choose country</option>
+   					</select></div>
+
+   					<div class="form-group">City<br/>
+   					<input type="text" class="form-control" name="city"/></div>
+   				
+            
+            
+   				
+   					<div class="form-group">
+   						Copyright?<br/>
+   						<label><input type="radio" name="copyright" value="1">All rights reserved</label><br/>
+   						<label><input type="radio" name="copyright" value="2" checked="checked">Creative Commons</label><br/>
+   					</div>
+   					<div class="form-group">
+   						Creative Commons Types<br/>
+   						<label><input type="checkbox" name="creativeCommonsTypes" value="attribution">Attribution</label>
+   						<label><input type="checkbox" name="creativeCommonsTypes" value="noncommercial">Noncommercial</label>
+   						<label><input type="checkbox" name="creativeCommonsTypes" value="noDerivativeWorks">No Derivative Works</label>
+   					</div>
+   				
+   			
+
+   			
+   				<div class="form-group"><label><input type="checkbox" name="licenseAccept" value="">I accept the software license </label></div>
+   			
+
+   			
+   				<div class="row">
+   					<div class="form-group col-lg-4">Rate this photo:<br/>
+   					<input type="number" class="form-control" name="rate" value="" /></div>
+                  <div class="col-2"></div>
+   					<div class="form-group col-lg-6">Color Collection:<br/>
+   					<input type="text" class="form-control" name="color" value="" /></div>
+   				</div>
+   				
+               <div class="row">
+   						<div class="form-group col-lg-6">Date Taken:<br/>
+   							<input type="date" class="form-control" name="date" value="" /></div>
+                        <div class="col-2"></div>
+   						<div class="form-group col-lg-4">Time Taken:<br/>
+   							<input type="time" class="form-control" name="time" value="" /></div>
+               </div>   		
+   				
+   			
+
+   			
+   				
+   					<p>
+   					<input type="submit" name="" value="Submit" class="btn btn-default" />
+   					<input type="reset" name="" value="Clear" class="btn btn-default" />
+   					</p>
+   				
+   			
+   		
+   	</fieldset>
+   </form>
+   	
+   
+   </div>
+</main>
+
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
