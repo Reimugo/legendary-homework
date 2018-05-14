@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab07</title>
+
+    <link rel="stylesheet" href="Lab07.css">
+    <script type="text/javascript" src="Data.js"></script>
+</head>
+<body>
+
+<div id="container">
+    <label for="select1"></label><select id="select1" onchange="select1Change()">
+        <option value="sOCreate()">SELECT ONE</option>
+        <option value="cTCreate()">CREATE TABLE</option>
+        <option value="aRCreate()">ADD ROW</option>
+        <option value="dRCreate()">DELETE ROW</option>
+        <option value="dTCreate()">DELETE TABLE</option>
+    </select>
+
+    <div id="operateBox">
+    </div>
+
+
+    <br>
+    <label for="select2"></label><select id="select2" onchange="select2Change()">
+        <option value="default">SELECT(default: last created)</option>
+    </select>
+
+    <table id="tableBox">
+
+    </table>
+</div>
+
+
+<script type="text/javascript" src="Lab07.js"></script>
+
+</body>
+</html>

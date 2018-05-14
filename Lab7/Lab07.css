@@ -1,0 +1,30 @@
+#container{
+    text-align: center;
+}
+
+select ,button{
+    width: 300px;
+}
+
+input{
+    margin: 2px 2px;
+}
+
+table{
+    border-width: 0;
+    margin: auto;
+    margin-top: 8px;
+}
+table th{
+    background-color: grey;
+    color: whitesmoke;
+    width: 150px;
+    height: 30px;
+}
+table td{
+    width: 150px;
+    height: 20px;
+}
+table tr:nth-child(odd) td{
+    background-color: lightgrey;
+}
