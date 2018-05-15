@@ -221,7 +221,6 @@ function dRCommit() {
     function matchIndex(c, r) {
         if (c=== arrays.length) {
             deleteIndex.push(r);
-            alert(r);
         }
         else {
             if (table.children[c].children[r].data=== arrays[c].value.trim()|| arrays[c].value.trim()==="") {
